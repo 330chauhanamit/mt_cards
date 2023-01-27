@@ -71,7 +71,7 @@ const header = ({ roundedHeaderButton = false, logoLink, links, className, colla
   const collapseBreakpointCss = collapseBreakPointCssMap[collapseBreakpointClass];
 
   const defaultLogoLink = (
-    <LogoLink href="/components/landingPages/RestaurantLandingPage">
+    <LogoLink href="./">
       <img src={logo} alt="logo" />
       Blister Packing
     </LogoLink>

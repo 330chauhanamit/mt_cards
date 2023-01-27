@@ -12,7 +12,7 @@ export default function App() {
   return (
     <>
       <GlobalStyles />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<MainLandingPage />} />
         </Routes>

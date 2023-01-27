@@ -59,11 +59,11 @@ export const DesktopNavLinks = tw.nav`
 const header = ({ roundedHeaderButton = false, logoLink, links, className, collapseBreakpointClass = "lg" }) => {
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About Us</NavLink>
-      <NavLink href="/#">FAQs</NavLink>
-      <NavLink href="/#">Our Facilities</NavLink>
-      <NavLink href="/#">Careers</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
+      <NavLink href="#">About Us</NavLink>
+      <NavLink href="#">FAQs</NavLink>
+      <NavLink href="#">Our Facilities</NavLink>
+      <NavLink href="#">Careers</NavLink>
+      <NavLink href="#">Contact Us</NavLink>
     </NavLinks>
   ];
 
